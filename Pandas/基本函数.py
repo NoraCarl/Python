@@ -15,5 +15,8 @@ print(Data_csv.describe(percentiles=[.05,.25,.75,.95]))  # 统计数值型数据
 # 第一个percentiles,这个参数可以设定数值型特征的统计量，默认是[.25, .5, .75],也就是返回25%，50%，75%数据量时的数字.但是这个可以修改的
 print(Data_csv['数学成绩'].idxmax())  # 求最大元素的下标
 print(Data_csv['数学成绩'].idxmin())  # 求最小元素的下标
-print(Data_csv['数学成绩'].nlargest())  # 显示较大的元素
-print(Data_csv['数学成绩'].nsmallest())  # 显示较小的元素
+print(Data_csv['数学成绩'].nlargest())  # 显示前几位较大的元素和下标索引
+print(Data_csv['数学成绩'].nsmallest())  # 显示前几位较小的元素和下标索引
+print(Data_csv['数学成绩'].clip(31,50).head)  # 对于超过或低于指定值的数据进行截取
+Data_csv['地址'].replace(['street_1','street_2','street_4'],['one','two','fouth'],inplace=True) # 对内容进行更改  需要设置inplace=True才能修改原数据
+print(Data_csv['地址'].value_counts())
