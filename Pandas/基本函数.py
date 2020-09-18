@@ -8,3 +8,4 @@ print(Data_csv.head())  #查看头数据
 print(Data_csv.tail())  #查看尾数据
 print(Data_csv['物理成绩'].nunique()) # nunique显示该字段里面有多少唯一值
 print(Data_csv['物理成绩'].unique()) #unique显示该字段所有的唯一值
+print(Data_csv['性别'].unique())
