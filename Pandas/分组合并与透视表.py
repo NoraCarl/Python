@@ -25,4 +25,5 @@ data_two = pd.merge(hb1,hb2,how='outer')
 print(data_two)
 '''
 
-# 透视表
+# 透视表 pivot_table 通过不同的维度去展示数据
+print(pd.pivot_table(Data_csv,index='Gender',columns='School',values='Height',aggfunc='mean'))
