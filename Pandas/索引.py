@@ -13,3 +13,4 @@ print(Data_csv.loc[1103:1203])
 #loc 单列索引
 print(Data_csv.loc[:,'Weight'].head())
 #loc 多列索引
+print(Data_csv.loc[:,['Address','Height','Math']].head())
