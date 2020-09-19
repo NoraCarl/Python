@@ -13,8 +13,7 @@ Histogram = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据
 Quadrant_chart = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据.xlsx',sheet_name='四象限图')
 #饼图
 Pie_chart = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据.xlsx',sheet_name='饼图')
-#相关矩阵图
-Matrix_diagram = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据.xlsx',sheet_name='相关矩阵图')
+
 #组合图
 Acd = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据.xlsx',sheet_name='组合图')
 
