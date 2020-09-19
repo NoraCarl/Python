@@ -8,8 +8,7 @@ plt.rcParams['axes.unicode_minus']=False
 
 # 柱状图
 Histogram = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据.xlsx',sheet_name='柱状图')
-#折线图
-Line_chart = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据.xlsx',sheet_name='折线图')
+
 #四象限图
 Quadrant_chart = pd.read_excel('C:\\Users\\cora\\Desktop\\可视化图表案例数据.xlsx',sheet_name='四象限图')
 #饼图
